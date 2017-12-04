@@ -1,0 +1,16 @@
+# 公有仓库
+source 'https://github.com/CocoaPods/Specs.git'
+## 私有仓库
+# source 'https://git.nya.pics/Ligo/LigoPods.git'
+
+use_frameworks!
+
+target 'PYObservesCenter_Example' do
+  pod 'PYObservesCenter', :path => '../'
+
+  target 'PYObservesCenter_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
