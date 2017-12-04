@@ -1,0 +1,6 @@
+framework module PYObservesCenter {
+  umbrella header "PYObservesCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

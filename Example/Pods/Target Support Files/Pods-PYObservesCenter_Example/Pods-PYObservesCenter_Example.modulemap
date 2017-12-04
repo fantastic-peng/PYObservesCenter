@@ -1,0 +1,6 @@
+framework module Pods_PYObservesCenter_Example {
+  umbrella header "Pods-PYObservesCenter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

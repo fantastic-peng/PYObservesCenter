@@ -7,6 +7,7 @@
 //
 
 #import "PYViewController.h"
+#import "PYManagerCenter.h"
 
 @interface PYViewController ()
 

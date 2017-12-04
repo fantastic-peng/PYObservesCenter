@@ -1,0 +1,6 @@
+framework module Pods_PYObservesCenter_Tests {
+  umbrella header "Pods-PYObservesCenter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

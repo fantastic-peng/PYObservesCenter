@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PLObservers (1.0.0)
+  - PYObservesCenter (0.1.0):
+    - PLObservers
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - PYObservesCenter (from `../`)
+
+EXTERNAL SOURCES:
+  PYObservesCenter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PLObservers: b64f902e1efc61bd1fa270d88229cdfff1a1dbe6
+  PYObservesCenter: 52784cf94cc3665f575c81cfae56bb62d28b07da
+
+PODFILE CHECKSUM: 16136d2a95d7c0c8787feea6bc70926ddd4914b3
+
+COCOAPODS: 1.4.0.beta.2
